@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	width: 100%;
+	height: 1500px;
+}
+
+#intro {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 5px;
+	width: 30%;
+	height: 588px;
+	min-width: 400px;
+	font-family: "Helvetica";
+	float: left;
+}
+
+.menu {
+	position: relative;
+	width: 67%;
+	display: inline;
+}
+
+.link {
+	display: block;
+	border-bottom: solid black 1px;
+	width: 67%;
+	float: left;
+	padding-top: 90px;
+	padding-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-family: "Helvetica";
+	min-width: 405px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	text-decoration: line-through;
+	border: solid black 1px;
+
+}
+
+#intro:hover {
+	border: solid black 1px;
+}
+
+.viewer {
+	margin-top: 10px;
+	width: 67%;
+	position: relative;
+	float: left;
+	display: inline;
+}
+
+img {
+	width: 100%;
+	border: solid black 1px;
+}
+
+.description {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 5px;
+	width: 30%;
+	height: 588px;
+	min-width: 400px;
+	font-family: "Helvetica";
+	float: left;
+}
+
+#footer{
+	font-family: 'Helvetica';
+	width: 100%;
+	position: fixed;
+	bottom: 10px;
+	left: 20px;
+}
+
+#project{
+	text-decoration: underline;
+}
+
+.header {
+	font-size: 200px;
+	font-family: "Helvetica";
+	border-bottom: solid black 1px;
+	margin-bottom: 10px;
+	color: black;
+
+}
+
+.header:hover {
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.nav {
+	display: inline-block;
+	font-family: "Helvetica";
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	text-align: right;
+	list-style-type: none;
+	text-decoration: 
+}
+
